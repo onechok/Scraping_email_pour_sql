@@ -3,7 +3,7 @@ from scraper import fetch_html, extract_emails
 
 # Fonction principale
 def main():
-    url = "https://www.pc-bex.ch/contact-informatique/"
+    url = "https://url_du_site/"
 
     connection = connect_to_db()
     create_table(connection)
